@@ -1,0 +1,295 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: -webkit-radial-gradient(#ffffff, #fafafa);
+    background: -o-radial-gradient(#ffffff, #fafafa);
+    background: -moz-radial-gradient(#ffffff, #fafafa);
+    background: radial-gradient(#ffffff, #fafafa);
+}
+
+#rightArrow {
+    position: fixed;
+    margin-top: 17em;
+    right: 3em;
+}
+
+#leftArrow {
+    position: fixed;
+    margin-top: 17em;
+    left: 3em;
+}
+
+#header {
+    width: auto;
+    height: 70px;
+    margin: -40px -10px 81px -10px;
+}
+
+#headerLogo {
+    padding: 1px;
+}
+
+#logoDiv {
+    margin-left: 2%;
+}
+
+#logo {
+    font-family: "Bangers", sans-serif;
+    font-size: 40px;
+    color: #e2e2e2;
+    letter-spacing: .03em;
+    line-height: 155%;
+}
+
+
+#englishSentence {
+    font-family: "Varela Round", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#danishSentence {
+    font-family: "Varela Round", sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: -30px;
+    width:450px;
+    color: #4f524f;
+}
+
+.buttonPanel {
+    width: 140px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#jeg:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#er:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#ikke:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#Steve:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#du:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#ja:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#nej:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#Lisa:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.jeg:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.er:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.ikke:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.Steve:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.du:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.ja:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.nej:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.Lisa:hover {
+    color: #68cfff;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+#explain {
+    font-size: 25px;
+    color: #a2a5a2;
+}
+
+.hide{
+    display: none;
+}
+
+#showAnswer {
+    width: 298px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #cacdca;
+    color: #ffffff;
+}
+
+#showAnswerText {
+    line-height: 60px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#sentence {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 450px;
+    color: #4f524f;
+}
+
+#answer {
+    margin-top: 150px;
+}
+
+#explain {
+    line-height: 150px;
+}
+
+#play {
+    float: left;
+}
+
+#play:hover {
+    cursor: pointer;
+}
+
+#replay {
+    float: left;
+}
+
+#replay:hover {
+    cursor: pointer;
+}
+
+#record {
+    margin-left: 60px;
+    width: 75px;
+}
+
+.blue {
+    color: #68cfff;
+    font-size: 45px;
+}
+
+a:visited {
+    color: white;
+}
+
+#headerLogo {
+    margin-top: 10px;
+    margin-left: -7px;
+}
+
+#navPanel {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+#leftPointer {
+    width: 90px;
+    height: 66px;
+    background-color: #cdd0cd;
+    border-radius: 45px;
+    float: left;
+}
+
+#leftPointer:hover {
+    background-color: #68cfff;
+    cursor: pointer;
+}
+
+#rightPointer {
+    width: 90px;
+    height: 66px;
+    background-color: #cdd0cd;
+    border-radius: 45px;
+    float: right;
+}
+
+#rightPointer:hover {
+    background-color: #68cfff;
+    cursor: pointer;
+}
+
+#leftIcon {
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+
+#rightIcon {
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 22px;
+}

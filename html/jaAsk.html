@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/styleAsk.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+    <title>Dojo</title>
+</head>
+<body>
+
+<div id="leftArrow"><a href="nej.html"><img src="../images/leftArrow.png"></a></div>
+
+<div id="rightArrow" class="blank"><a href="nejAsk.html"><img src="../images/rightArrow.png"></a></div>
+
+<a href="../index.html"><img id="logo" src="../images/miniLogo.png"/></a>
+
+<div id="progress"><div class="bar"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div>
+    <div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div>
+    <div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div>
+    <div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div>
+    <div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar b"></div><div class="bar"></div></div>
+<div id="canvas">
+    <img id="sensei" src="../images/mascotChallenge2.png" />
+    <img id="bubble1" src="../images/bubble1.png" />
+    <div class="text" id="englishSentence"><p>How do you say<br><span id="phrase">yes</span>?</p></div>
+    <div id="danishSentence" class="blank"><span id="ja">ja</span></div><p id="replay" class="blank">
+    <img src="../images/replayButtonSmall3.png" /></p>
+    <div class="text"><p id="feedback" class="blank">Fantastic!</p></div>
+    <img id="bubble2" class="blank" src="../images/bubble4.png" />
+    <div class="text"><p id="prompt" class="blank">(Say the answer out loud)</p>
+    <div id="showAnswer" class="blank"><div id="showAnswerText">Check answer</div></div>
+    </div>
+       <div id="panel" class="blank">
+            <div id="rate">Rate how you did:</div>
+            <div id="great"><div id="greatText">Nailed it!</div></div>
+            <div id="okay"><div id="okayText">Still need <br>some practice</div></div>
+            <div id="bad"><div id="badText">Eh.. not good</div></div>
+        </div>
+
+
+    <audio id="audio" src="../audio/ja.mp3" ></audio>
+    <audio id="audioJa" src="../audio/ja.mp3"></audio>
+
+</div>
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/jegErIkkeSteveAsk.js"></script>
+
+</body>
+</html>

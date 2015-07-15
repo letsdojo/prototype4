@@ -1,0 +1,320 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: -webkit-radial-gradient(#ffffff, #fafafa);
+    background: -o-radial-gradient(#ffffff, #fafafa);
+    background: -moz-radial-gradient(#ffffff, #fafafa);
+    background: radial-gradient(#ffffff, #fafafa);
+}
+
+#rightArrow {
+    position: fixed;
+    margin-top: 17em;
+    right: 3em;
+}
+
+#leftArrow {
+    position: fixed;
+    margin-top: 17em;
+    left: 3em;
+}
+
+#logo {
+    top: 10px;
+    right: 10px;
+}
+
+#progress {
+    height: 27px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 19px;
+    margin-top: -15px;
+}
+
+.bar {
+    height: 27px;
+    width: 13px;
+    background-color: #d1d1d1;
+    float: left;
+    position: relative;
+    margin-left: 7px;
+    border-radius: 7px;
+}
+
+.bar:nth-child(1) {
+    background-color: #68cfff;
+}
+
+#canvas {
+    height: 500px;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#sensei {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+}
+
+#bubble1 {
+    position: relative;
+    float: left;
+}
+
+#bubble2 {
+    position: relative;
+    float: left;
+}
+
+.text {
+    position: absolute;
+    z-index: 40;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#englishSentence {
+    font-size: 33px;
+    margin-top: 6px;
+    margin-left: 231px;
+    width: 292px;
+    line-height: 122%;
+    text-align: center;
+}
+
+#phrase {
+    color: #68cfff;
+}
+
+#prompt {
+    font-size: 24px;
+    margin-top: 210px;
+    margin-left: 268px;
+    text-align: center;
+    color: #979797;
+}
+
+#danishSentence {
+    font-size: 33px;
+    margin-top: 34px;
+    margin-left: 231px;
+    width: 292px;
+    line-height: 132%;
+    text-align: center;
+    position: absolute;
+    z-index: 60;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#replay {
+    margin-top: 87px;
+    margin-left: 363px;
+    position: absolute;
+    z-index: 60;
+    float: left;
+}
+#feedback {
+    font-size: 41px;
+    line-height: 1px;
+    margin-top: 75px;
+    margin-left: 280px;
+}
+
+#greatTalk {
+    font-size: 41px;
+    line-height: 1px;
+    margin-top: 75px;
+    margin-left: 310px;
+}
+
+#okayTalk {
+    font-size: 41px;
+    line-height: 1px;
+    margin-top: 75px;
+    margin-left: 310px;
+}
+
+#badTalk {
+    font-size: 35px;
+    line-height: 1px;
+    margin-top: 75px;
+    margin-left: 256px;
+}
+
+.blank {
+    visibility: hidden;
+}
+
+#playButton {
+    width: 350px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#jeg:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#er:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#ikke:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#Steve:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#du:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#ja:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#nej:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+#Lisa:hover {
+    color: #68cfff;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+#showAnswer {
+    width: 159px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin-left: 293px;
+    margin-top: 43px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #68cfff;
+    color: #ffffff;
+}
+
+#showAnswerText {
+    margin-left: 19px;
+    line-height: 64px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 25px;
+}
+
+#panel {
+    width: 700px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+
+#rate {
+    width: 600px;
+    height: 50px;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 35px;
+}
+
+#great {
+    width: 159px;
+    height: 70px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #87c65c;
+    color: #ffffff;
+}
+
+#greatText {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 105%;
+}
+
+#okay {
+    width: 159px;
+    height: 70px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #fbd018;
+    color: #ffffff;
+}
+
+#okayText {
+    margin-top: 12px;
+    line-height: 105%;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+#bad {
+    width: 159px;
+    height: 70px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #ef484a;
+    color: #ffffff;
+}
+
+#badText {
+    margin-top: 25px;
+    line-height: 105%;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+#sentence {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 450px;
+}
+
+#replay:hover {
+    cursor: pointer;
+}
+
+.b {
+    background-color: #68cfff;
+}
